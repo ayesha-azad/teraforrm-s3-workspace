@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my-bucket" {
-  bucket = "ayeshaazad-${terraform.workspace}-bucket"
+  bucket = "ayeshaazad-bucket"
 }
